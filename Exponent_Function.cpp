@@ -2,6 +2,7 @@
 #include "Power_Exponential_Function.h"
 #include "Factorial_Function.h"
 
+//функция экспоненты е^x
 long double Exponent_Function()
 {
     system("CLS");
@@ -13,6 +14,7 @@ long double Exponent_Function()
 
     std::cin >> x;
 
+    //Вычисление экспоненты через ряд Маклорена
     for (short i = 0; i < 100; i++)
     {
         sum = Power_Exponential_Function(x, i) / Factorial_Function(i);

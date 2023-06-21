@@ -1,3 +1,4 @@
+//Вспомогательная показательно-
 long double Power_Exponential_Function(double x, int  i)
 {
     long double result = 1;

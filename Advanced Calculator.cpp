@@ -15,6 +15,7 @@ int main()
 
         std::cin >> operation;
 
+        //Меню выбора действия (по возможно можно дополнить, добавив ещё функции)
         switch (operation)
         {
             case '1': std::cout << "Итоговый результат: " << Exponent_Function()<<"\n"; system("pause"); break;
