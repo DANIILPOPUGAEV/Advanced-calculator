@@ -6,10 +6,12 @@ long double Exponent_Function()
 {
     system("CLS");
 
-    double x; std::cin >> x;
+    double x;
     double result = 0; double sum;
 
     std::cout << "¬ведите значение х: ";
+
+    std::cin >> x;
 
     for (short i = 0; i < 100; i++)
     {
